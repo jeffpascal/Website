@@ -1,0 +1,38 @@
+body,html {
+	margin: 0;
+	padding: 0;
+}
+
+ul{
+	padding: 0;
+	margin:0;
+	display: block;
+	height: inherit;
+	margin-left: 100px;
+}
+
+.container {
+	background-color: white;
+}
+
+.menu{
+	display: block;
+	height: 70px;
+	background-color: teal;
+}
+
+
+li {
+	display: inline-block;
+	height: inherit;
+	font-family: sans-serif;
+	float: left;
+	line-height: 70px;
+	transition : 0.5s background;
+	width: 100px;
+	text-align: center;
+}
+
+li:hover {
+	background-color: white;
+}
